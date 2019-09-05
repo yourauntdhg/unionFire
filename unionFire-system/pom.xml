@@ -11,12 +11,22 @@
 
     <artifactId>unionFire-system</artifactId>
 
+    <properties>
+        <jjwt.version>0.9.1</jjwt.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.union</groupId>
             <artifactId>unionFire-common</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>${jjwt.version}</version>
         </dependency>
     </dependencies>
 
